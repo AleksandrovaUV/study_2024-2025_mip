@@ -1,0 +1,7 @@
+#!/usr/bin/gnuplot -persist
+
+set term pngcairo
+set out "plot_time.png"
+
+plot [0:][0:1.2] "Long_Delay_Time.log" using ($4):($1) with lines
+ 

@@ -1,0 +1,6 @@
+#!/usr/bin/gnuplot -persist
+
+set term pngcairo
+set out "plot2.png"
+
+plot "Queue_Delay.log" using ($4):($1) with lines
