@@ -1,0 +1,135 @@
+CPN Tools state space report for:
+/home/openmodelica/mip/lab12.cpn
+Report generated: Sun Mar 23 22:49:35 2025
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  19959
+     Arcs:   319463
+     Secs:   300
+     Status: Partial
+
+  Scc Graph
+     Nodes:  10485
+     Arcs:   266520
+     Secs:   12
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     New_Page'A 1            20         0
+     New_Page'B 1            10         0
+     New_Page'C 1            6          0
+     New_Page'D 1            5          0
+     New_Page'Next_packet 1  1          1
+     New_Page'SA 1           1          1
+     New_Page'SP 1           1          1
+     New_Page'next_sender 1  1          1
+     New_Page'receiver 1     1          1
+     New_Page'sender 1       8          8
+
+  Best Upper Multi-set Bounds
+     New_Page'A 1        20`(1,"Modelin")++
+16`(2,"g and An")++
+11`(3,"alysis b")++
+6`(4,"y Means")++
+1`(5,"of Colou")
+     New_Page'B 1        10`(1,"Modelin")++
+8`(2,"g and An")++
+5`(3,"alysis b")++
+3`(4,"y Means")
+     New_Page'C 1        6`2++
+5`3++
+3`4++
+2`5
+     New_Page'D 1        5`2++
+4`3++
+2`4++
+1`5
+     New_Page'Next_packet 1
+                         1`1++
+1`2++
+1`3++
+1`4++
+1`5
+     New_Page'SA 1       1`8
+     New_Page'SP 1       1`8
+     New_Page'next_sender 1
+                         1`1++
+1`2++
+1`3++
+1`4++
+1`5
+     New_Page'receiver 1 1`""++
+1`"Modelin"++
+1`"Modeling and An"++
+1`"Modeling and Analysis b"++
+1`"Modeling and Analysis by Means"
+     New_Page'sender 1   1`(1,"Modelin")++
+1`(2,"g and An")++
+1`(3,"alysis b")++
+1`(4,"y Means")++
+1`(5,"of Colou")++
+1`(6,"red Petr")++
+1`(7,"i Nets##")++
+1`(8,"########")
+
+  Best Lower Multi-set Bounds
+     New_Page'A 1        empty
+     New_Page'B 1        empty
+     New_Page'C 1        empty
+     New_Page'D 1        empty
+     New_Page'Next_packet 1
+                         empty
+     New_Page'SA 1       1`8
+     New_Page'SP 1       1`8
+     New_Page'next_sender 1
+                         empty
+     New_Page'receiver 1 empty
+     New_Page'sender 1   1`(1,"Modelin")++
+1`(2,"g and An")++
+1`(3,"alysis b")++
+1`(4,"y Means")++
+1`(5,"of Colou")++
+1`(6,"red Petr")++
+1`(7,"i Nets##")++
+1`(8,"########")
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     None
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     7042 [19959,19958,19957,19956,19955,...]
+
+  Dead Transition Instances
+     None
+
+  Live Transition Instances
+     None
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+       New_Page'Receive_packet 1
+                         No Fairness
+       New_Page'Transmits_packet 1
+                         Impartial
+       New_Page'send_ack 1    No Fairness
+       New_Page'send_packet 1 Impartial
+       New_Page'transmit_ack 1
+                         No Fairness
+
